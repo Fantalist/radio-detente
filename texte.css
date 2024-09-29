@@ -1,0 +1,21 @@
+.container {
+    display: inline-block;
+    position: relative;
+}
+.container .text {
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Courier;
+	font-style: italic;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0%;
+    color: white;
+	-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-image: -webkit-linear-gradient(left, red, lightblue, white);
+    width: 70%;
+}
